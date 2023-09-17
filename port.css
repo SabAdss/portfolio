@@ -15,7 +15,7 @@ body{
     flex-direction: row;
     justify-content:flex-start;
     list-style: none;
-    background-color: 	#3B3C36;
+    background-color:#3B3C36;
 }
 
 li{
@@ -28,8 +28,20 @@ li:hover{
     background-color: #696969;
 }
 
+li:active{
+    color: black;
+    background-color: white;
+}
+
 #home{
+    margin: 0%;
+    padding: 0%;
     height: 700px;
     width: 100%;
     background-color: darkgray;
+}
+
+#home > h1{
+    margin: 0;
+    padding: 0;
 }
