@@ -1,0 +1,35 @@
+*/{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+#headerlist{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    list-style: none;
+    background-color: 	#3B3C36;
+}
+
+li{
+    padding: 20px 15px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+li:hover{
+    background-color: #696969;
+}
+
+#home{
+    height: 500px;
+    width: 100%;
+    background-color: darkgray;
+}
