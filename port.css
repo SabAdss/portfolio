@@ -22,15 +22,18 @@ li{
     padding: 20px 15px;
     color: white;
     font-family: 'Poppins', sans-serif;
+    cursor: pointer;
 }
 
 li:hover{
     background-color: #696969;
+    transition: 0.5s;
 }
 
 li:active{
     color: black;
     background-color: white;
+    transition: 0s;
 }
 
 #home{
@@ -44,4 +47,14 @@ li:active{
 #home > h1{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+#home > p{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    
 }
