@@ -32,11 +32,13 @@ li{
     color: white;
     font-family: 'Poppins', sans-serif;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 li:hover{
     background-color: #696969;
     transition: 0.5s;
+    box-shadow: 1px 1px 8px white, -1px -1px 8px white;
 }
 
 li:active{
