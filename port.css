@@ -18,6 +18,13 @@ body{
     justify-content:flex-start;
     list-style: none;
     background-color:#3B3C36;
+    animation-name: forheader;
+    animation-duration: 1s;
+}
+
+@keyframes forheader{
+    0%{top: -60px}
+    100%{top: 0px;}
 }
 
 li{
@@ -54,7 +61,7 @@ li:active{
     font-family: 'Poppins', sans-serif;
     text-align: center;
     animation-name: forheading;
-    animation-duration: 2s;
+    animation-duration: 3s;
 }
 @keyframes forheading{
     0%{top: -300px;}
@@ -63,17 +70,17 @@ li:active{
 
 #home > p{
     position: relative;
-    top: 30px ;
+    top: 20px ;
     margin: 0;
     padding: 0px 10px;
     font-family: 'Poppins', sans-serif;
     text-align: center;
     animation-name: forparagraph;
-    animation-duration: 3s;
+    animation-duration: 4s;
 }
 @keyframes forparagraph{
     0%{top: -500px;}
-    100%{top: 30px;}
+    100%{top: 20px;}
 }
 
 
