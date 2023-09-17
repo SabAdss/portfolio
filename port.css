@@ -1,0 +1,91 @@
+*/{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+#headerlist{
+    position: relative;
+    top: 0;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    list-style: none;
+    background-color:#3B3C36;
+    animation-name: forheader;
+    animation-duration: 1s;
+}
+
+@keyframes forheader{
+    0%{top: -60px}
+    100%{top: 0px;}
+}
+
+li{
+    padding: 20px 15px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+li:hover{
+    background-color: #696969;
+    transition: 0.5s;
+    box-shadow: 1px 1px 8px white, -1px -1px 8px white;
+}
+
+li:active{
+    color: black;
+    background-color: white;
+    transition: 0s;
+}
+
+#home{
+    margin: 0%;
+    padding: 0%;
+    height: 700px;
+    width: 100%;
+    background-color: darkgray;
+}
+
+#home > h1{
+    position: relative;
+    top: 10px;
+    margin: 0px 10px;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    animation-name: forheading;
+    animation-duration: 3s;
+}
+@keyframes forheading{
+    0%{top: -300px;}
+    100%{top: 10px;}
+}
+
+#home > p{
+    position: relative;
+    top: 20px ;
+    margin: 0;
+    padding: 0px 10px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    animation-name: forparagraph;
+    animation-duration: 4s;
+}
+@keyframes forparagraph{
+    0%{top: -500px;}
+    100%{top: 20px;}
+}
+
+
+#spanforhello{
+    font-size: 60px;
+}
