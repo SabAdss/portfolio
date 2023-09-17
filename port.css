@@ -9,6 +9,8 @@ body{
 }
 
 #headerlist{
+    position: sticky;
+    top: 0;
     margin: 0%;
     padding: 0%;
     display: flex;
@@ -45,7 +47,7 @@ li:active{
 }
 
 #home > h1{
-    margin: 0;
+    margin: 0px 10px;
     padding: 0;
     font-family: 'Poppins', sans-serif;
     text-align: center;
@@ -53,7 +55,7 @@ li:active{
 
 #home > p{
     margin: 0;
-    padding: 0;
+    padding: 0px 10px;
     font-family: 'Poppins', sans-serif;
     text-align: center;
     
