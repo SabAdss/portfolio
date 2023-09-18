@@ -19,7 +19,7 @@ body{
     list-style: none;
     background-color:#3B3C36;
     animation-name: forheader;
-    animation-duration: 1s;
+    animation-duration: 0.5s;
 }
 
 @keyframes forheader{
@@ -50,11 +50,11 @@ li:active{
 #home{
     margin: 0%;
     padding: 0%;
-    height: 700px;
+    height: 600px;
     width: 100%;
     background-color: darkgray;
     animation-name: forhome;
-    animation-duration: 3s;
+    animation-duration: 5s;
 }
 
 @keyframes forhome{
