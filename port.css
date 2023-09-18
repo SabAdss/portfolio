@@ -89,3 +89,33 @@ li:active{
 #spanforhello{
     font-size: 60px;
 }
+
+#home > #spanner > img{
+    margin: 0%;
+    padding: 0;
+    height: 200px;
+    animation-name: rotate;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#home > #spanner{
+    position: relative;
+    top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: forspanner 3s linear;
+}
+
+@keyframes forspanner{
+    0%{left:-100%;}
+    100%{left:0px;}
+}
+
+@keyframes rotate{
+    0%{rotate: 360deg;}
+    100%{rotate: 0deg;}
+}
+
