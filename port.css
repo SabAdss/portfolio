@@ -50,7 +50,7 @@ li:active{
 #home{
     margin: 0%;
     padding: 0%;
-    height: 600px;
+    height: 650px;
     width: 100%;
     background-color: darkgray;
     animation-name: forhome;
@@ -124,5 +124,13 @@ li:active{
 @keyframes rotate{
     0%{rotate: 360deg;}
     100%{rotate: 0deg;}
+}
+
+#mycareer{
+    position: relative;
+    top: 0;
+    height: 300px;
+    width: auto;
+    background-color: #3B3C36;
 }
 
