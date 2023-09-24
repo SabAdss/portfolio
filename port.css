@@ -149,12 +149,12 @@ body{
 
 .animationforidone{
     animation-name: foridone;
-    animation-duration: 1s;
+    animation-duration: 2s;
 }
 
 @keyframes foridone{
-    0%{left: -100%;}
-    100%{left: 0;}
+    0%{opacity: 0%;}
+    100%{opacity: 100%;}
 }
 
 
@@ -173,7 +173,16 @@ body{
 
 #careerlist > li{
     /* padding: 0px 1px; */
-    box-shadow: 1px 1px 8px white;
+    box-shadow: 0px 0px 5px black;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    animation-name: border;
+    animation-duration: 3s;
+}
+
+@keyframes border{
+    0%{border-bottom-width: 0;}
+    100%{border-bottom-width: 100%;}
 }
 
 span{
@@ -195,9 +204,10 @@ span{
 }
 .animationformycareerh3{
     animation-name: formycareerh3;
-    animation-duration: 2s;
+    animation-duration: 3s;
 }
 @keyframes formycareerh3{
     0%{opacity: 0;}
     100%{opacity: 100%;}
 }
+

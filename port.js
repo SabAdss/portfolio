@@ -18,3 +18,5 @@ function functionformycareerh3(){
     mycareerh3.classList.add("animationformycareerh3");
 }
 window.addEventListener('scroll', functionformycareerh3);
+
+
